@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TanahNetizen — Hartanah Pilihan Netizen</title>
+  <meta name="description" content="TanahNetizen: ejen hartanah dipercayai untuk rumah, kondo, banglo dan tanah di Lembah Klang. Hubungi kami terus melalui WhatsApp.">
+  <meta name="theme-color" content="#0F3D2E">
+  <meta property="og:title" content="TanahNetizen — Hartanah Pilihan Netizen">
+  <meta property="og:description" content="Cari rumah impian anda bersama TanahNetizen. Deal terus melalui WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/icon-512.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="alternate icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand" aria-label="TanahNetizen laman utama">
+        <img src="assets/logo-light.svg" alt="TanahNetizen" class="logo logo--light" width="200" height="40">
+        <img src="assets/logo.svg" alt="" class="logo logo--dark" width="200" height="40" aria-hidden="true">
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Navigasi utama">
+        <a href="#hartanah">Hartanah</a>
+        <a href="#servis">Servis</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#testimoni">Testimoni</a>
+        <a href="#hubungi">Hubungi</a>
+      </nav>
+      <a class="btn btn--wa btn--sm nav__cta" data-wa="Hai TanahNetizen, saya berminat nak tahu lebih lanjut tentang hartanah yang ada." href="#" target="_blank" rel="noopener">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> WhatsApp
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="auto" poster="https://d8j0ntlcm91z4.cloudfront.net/user_3K8zUlKKY3qDgJqZXH9MLvrTga3/hf_20261004_105608_ad120661-ae8b-4cf0-ab62-4a90bf8408ec.png">
+        <source src="https://d8j0ntlcm91z4.cloudfront.net/user_3K8zUlKKY3qDgJqZXH9MLvrTga3/hf_20261004_105601_9cb3e449-4a14-410a-885c-4602156f5267.mp4" type="video/mp4">
+      </video>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <span class="eyebrow eyebrow--light">Ejen Hartanah Berdaftar · Lembah Klang</span>
+        <h1>Rumah impian anda,<br><em>dipilih netizen.</em></h1>
+        <p class="hero__lead">Dari kondo bandar ke banglo tropika dan tanah lot — kami bantu anda cari, runding dan tutup deal dengan telus. Satu mesej WhatsApp je.</p>
+        <div class="hero__actions">
+          <a class="btn btn--wa btn--lg" data-wa="Hai TanahNetizen, saya nak cari hartanah. Boleh bantu?" href="#" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Deal Sekarang
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#hartanah">Lihat Hartanah</a>
+        </div>
+
+        <form class="search" id="searchForm" aria-label="Cari hartanah">
+          <label class="search__field">
+            <span>Jenis</span>
+            <select id="fType">
+              <option value="all">Semua jenis</option>
+              <option value="rumah">Rumah</option>
+              <option value="kondo">Kondo</option>
+              <option value="banglo">Banglo</option>
+              <option value="tanah">Tanah</option>
+            </select>
+          </label>
+          <label class="search__field">
+            <span>Status</span>
+            <select id="fStatus">
+              <option value="all">Jual & Sewa</option>
+              <option value="jual">Untuk Dijual</option>
+              <option value="sewa">Untuk Disewa</option>
+            </select>
+          </label>
+          <button class="btn btn--gold" type="submit">Cari</button>
+        </form>
+      </div>
+      <a href="#statistik" class="hero__scroll" aria-label="Skrol ke bawah"><span></span></a>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" id="statistik">
+      <div class="container stats__grid">
+        <div class="stat"><strong data-count="350">0</strong><span>Deal berjaya</span></div>
+        <div class="stat"><strong data-count="1200">0</strong><span>Pelanggan gembira</span></div>
+        <div class="stat"><strong data-count="8">0</strong><span>Tahun pengalaman</span></div>
+        <div class="stat"><strong data-count="98" data-suffix="%">0</strong><span>Rating kepuasan</span></div>
+      </div>
+    </section>
+
+    <!-- LISTINGS -->
+    <section class="section" id="hartanah">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <span class="eyebrow">Senarai Pilihan</span>
+            <h2>Hartanah terhangat minggu ini</h2>
+          </div>
+          <div class="chips" role="tablist" aria-label="Tapis jenis hartanah">
+            <button class="chip is-active" data-filter="all">Semua</button>
+            <button class="chip" data-filter="rumah">Rumah</button>
+            <button class="chip" data-filter="kondo">Kondo</button>
+            <button class="chip" data-filter="banglo">Banglo</button>
+            <button class="chip" data-filter="tanah">Tanah</button>
+          </div>
+        </div>
+        <div class="grid" id="listingGrid"></div>
+        <p class="empty" id="emptyState" hidden>Tiada hartanah sepadan. <a href="#" data-wa="Hai TanahNetizen, saya cari hartanah yang tiada dalam senarai. Boleh bantu carikan?" target="_blank" rel="noopener">WhatsApp kami</a> — kami carikan untuk anda.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section--tint" id="servis">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <span class="eyebrow">Kenapa TanahNetizen</span>
+          <h2>Servis lengkap, dari tengok rumah sampai dapat kunci</h2>
+        </div>
+        <div class="services">
+          <article class="service">
+            <div class="service__icon"><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></div>
+            <h3>Jual & Beli</h3>
+            <p>Penilaian harga pasaran yang jujur dan pemasaran agresif di semua platform.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon"><svg viewBox="0 0 24 24"><path d="M7 14a4 4 0 1 1 3.9-5H22v3h-2v3h-3v-3h-6.1A4 4 0 0 1 7 14zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg></div>
+            <h3>Sewaan</h3>
+            <p>Cari penyewa berkualiti, semak latar belakang dan urus perjanjian sewa.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon"><svg viewBox="0 0 24 24"><path d="M4 4h16v4H4zm0 6h10v10H4zm12 0h4v10h-4z"/></svg></div>
+            <h3>Pinjaman Bank</h3>
+            <p>Bantu semak kelayakan & mohon loan dengan panel bank, termasuk skim rumah pertama.</p>
+          </article>
+          <article class="service">
+            <div class="service__icon"><svg viewBox="0 0 24 24"><path d="M6 2h9l5 5v15H6zm8 1.5V8h4.5zM9 12v2h8v-2zm0 4v2h6v-2z"/></svg></div>
+            <h3>Urusan Dokumen</h3>
+            <p>SPA, geran, cukai — kami selaraskan dengan peguam supaya semuanya lancar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="tentang">
+      <div class="container about">
+        <div class="about__media">
+          <img src="https://d8j0ntlcm91z4.cloudfront.net/user_3K8zUlKKY3qDgJqZXH9MLvrTga3/hf_20261004_105608_48d853f4-1126-413c-aada-e3e0b3bdcb25.png" alt="Ejen hartanah TanahNetizen" loading="lazy" width="600" height="800">
+          <div class="about__badge">
+            <strong>REN 12345</strong>
+            <span>Ejen Berdaftar LPPEH</span>
+          </div>
+        </div>
+        <div class="about__body">
+          <span class="eyebrow">Tentang Kami</span>
+          <h2>Ejen yang cakap macam kawan, kerja macam pro.</h2>
+          <p>TanahNetizen bermula dari satu idea mudah: beli rumah tak sepatutnya menakutkan. Kami gabungkan ilmu pasaran hartanah dengan cara komunikasi yang santai dan telus — macam bertanya dengan kawan sendiri.</p>
+          <ul class="checks">
+            <li>Tiada caj tersembunyi — semua kos diterangkan awal</li>
+            <li>Respon WhatsApp dalam masa kurang 15 minit</li>
+            <li>Viewing fleksibel termasuk hujung minggu</li>
+            <li>Rangkaian peguam & bank panel yang dipercayai</li>
+          </ul>
+          <a class="btn btn--wa" data-wa="Hai TanahNetizen, saya nak bincang tentang hartanah. Bila boleh call?" href="#" target="_blank" rel="noopener">
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> Borak dengan ejen
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section--dark" id="testimoni">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <span class="eyebrow eyebrow--light">Kata Netizen</span>
+          <h2>Mereka dah dapat kunci. Giliran anda pula.</h2>
+        </div>
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote>“Proses beli rumah pertama jadi senang sangat. Semua soalan bodoh saya dijawab dengan sabar. Recommended!”</blockquote>
+            <figcaption><span class="avatar">AF</span><span><strong>Aina F.</strong>Pembeli rumah pertama, Shah Alam</span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“Kondo saya tersewa dalam 10 hari. Penyewa pun berkualiti. Memang cekap.”</blockquote>
+            <figcaption><span class="avatar">HR</span><span><strong>Hafiz R.</strong>Pelabur, Kuala Lumpur</span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“Dapat harga tanah lot yang memang berpatutan. Rundingan dia power, dokumen semua settle.”</blockquote>
+            <figcaption><span class="avatar">ST</span><span><strong>Siti T.</strong>Pembeli tanah, Bangi</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section" id="hubungi">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h2>Sedia nak deal?</h2>
+            <p>Beritahu kami bajet & lokasi pilihan anda. Kami shortlist hartanah terbaik dalam masa 24 jam.</p>
+          </div>
+          <div class="cta__actions">
+            <a class="btn btn--wa btn--lg" data-wa="Hai TanahNetizen! Bajet saya: ___ . Lokasi pilihan: ___ . Jenis hartanah: ___ ." href="#" target="_blank" rel="noopener">
+              <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg> WhatsApp Sekarang
+            </a>
+            <a class="cta__phone" href="tel:+60123456789">atau call +60 12-345 6789</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <img src="assets/logo-light.svg" alt="TanahNetizen" width="200" height="40">
+        <p>Hartanah pilihan netizen. Jual, beli & sewa di seluruh Lembah Klang.</p>
+      </div>
+      <div>
+        <h4>Pautan</h4>
+        <a href="#hartanah">Hartanah</a>
+        <a href="#servis">Servis</a>
+        <a href="#tentang">Tentang</a>
+      </div>
+      <div>
+        <h4>Hubungi</h4>
+        <a href="tel:+60123456789">+60 12-345 6789</a>
+        <a href="mailto:hello@tanahnetizen.my">hello@tanahnetizen.my</a>
+        <span>Shah Alam, Selangor</span>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> TanahNetizen. Projek portfolio.</span>
+      <span>Visual dijana dengan Higgsfield AI</span>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a class="wa-float" data-wa="Hai TanahNetizen, saya nak tanya pasal hartanah." href="#" target="_blank" rel="noopener" aria-label="Chat di WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+    <span class="wa-float__tip">Chat dengan kami!</span>
+  </a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.94.95-3.48-.22-.36a9.43 9.43 0 0 1-1.45-5.02c0-5.2 4.24-9.44 9.45-9.44 2.52 0 4.89.99 6.67 2.77a9.38 9.38 0 0 1 2.76 6.68c0 5.21-4.24 9.44-9.44 9.44zm8.04-17.48A11.3 11.3 0 0 0 12.05.7C5.78.7.68 5.8.68 12.06c0 2 .52 3.96 1.52 5.68L.58 23.7l6.1-1.6a11.33 11.33 0 0 0 5.37 1.37h.01c6.26 0 11.36-5.1 11.36-11.36 0-3.04-1.18-5.89-3.33-8.04z"/></symbol>
+  </svg>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
